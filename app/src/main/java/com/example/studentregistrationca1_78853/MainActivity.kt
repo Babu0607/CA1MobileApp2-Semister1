@@ -175,6 +175,7 @@ fun SearchScreen(viewModel: StudentViewModel, onBackToHome: () -> Unit, modifier
         ) {
             Text("Back to Home page")
         }
+//
         if (searchResult != null){
             Spacer(modifier = Modifier.height(24.dp))
             Text(
